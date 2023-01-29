@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>calculator</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="display">
+          <input type="text" id="inputbox" />
+        </div>
+        <div class="subcard">
+          <button
+            class="caculatorclearbtn"
+            type="reset"
+            id="clearbtn"
+            onclick="calculatorClearBtn ()"
+          >
+            C
+          </button>
+
+          <button
+            class="caculatorsigns"
+            id="bracketbtn"
+            onclick=" addButtonValueToInputArray()"
+          >
+            ()
+          </button>
+          <button
+            class="caculatorsigns"
+            id="divisionbtn"
+            onclick=" addButtonValueToInputArray()"
+            value="/"
+          >
+            /
+          </button>
+          <button
+            class="caculatorsigns"
+            id="percentbtn"
+            value="/100"
+            onclick=" addButtonValueToInputArray()"
+          >
+            %
+          </button>
+          <button
+            class="caculatornums"
+            id="num_1"
+            value="1"
+            onclick=" calculatorNumsBtn ()"
+          >
+            1
+          </button>
+          <button
+            class="caculatornums"
+            id="num_2"
+            value="2"
+            onclick=" calculatorNumsBtn ()"
+          >
+            2
+          </button>
+          <button
+            class="caculatornums"
+            id="num_3"
+            value="3"
+            onclick=" calculatorNumsBtn ()"
+          >
+            3
+          </button>
+          <button
+            class="caculatorsigns"
+            id="multiplybtn"
+            value="*"
+            onclick=" calculatorMultiplictionBtn ()"
+          >
+            x
+          </button>
+          <button
+            class="caculatornums"
+            id="num_4"
+            value="4"
+            onclick=" calculatorNumsBtn ()"
+          >
+            4
+          </button>
+          <button
+            class="caculatornums"
+            id="num_5"
+            value="5"
+            onclick=" calculatorNumsBtn ()"
+          >
+            5
+          </button>
+          <button
+            class="caculatornums"
+            id="num_6"
+            value="6"
+            onclick=" calculatorNumsBtn ()"
+          >
+            6
+          </button>
+          <button
+            class="caculatorsigns"
+            id="subtractbtn"
+            value="-"
+            onclick="calculatorSubtractitionBtn() "
+          >
+            -
+          </button>
+          <button
+            class="caculatornums"
+            id="num_7"
+            value="7"
+            onclick=" calculatorNumsBtn ()"
+          >
+            7
+          </button>
+          <button
+            class="caculatornums"
+            id="num_8"
+            value="8"
+            onclick=" calculatorNumsBtn ()"
+          >
+            8
+          </button>
+          <button
+            class="caculatornums"
+            id="num_9"
+            value="9"
+            onclick=" calculatorNumsBtn ()"
+          >
+            9
+          </button>
+          <button
+            class="caculatorsigns"
+            id="addisonbtn"
+            value="+"
+            onclick=" calculatorAdditionBtn()"
+          >
+            +
+          </button>
+          <button
+            class="caculatornums"
+            id="plusorminusbtn"
+            value=""
+            onclick=" addButtonValueToInputArray()"
+          >
+            +/-
+          </button>
+          <button class="caculatornums" id="decimalbtn" value="." onclick=" ">
+            .
+          </button>
+          <button
+            class="caculatornums"
+            id="num_0"
+            value="0"
+            onclick=" calculatorNumsBtn ()"
+          >
+            0
+          </button>
+          <button
+            class="caculatorsequalbtn"
+            id="equalbtn"
+            value="="
+            onclick=" calculatorEqualBtn ()"
+          >
+            =
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
