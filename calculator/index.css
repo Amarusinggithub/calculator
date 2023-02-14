@@ -33,7 +33,7 @@ body{
 
 .display input{
    text-align: end;
-   font-size: 21px;
+   font-size: 20px;
    cursor: default;
    background-color: black;
    width:300px;
@@ -49,8 +49,6 @@ body{
    width:300px;
    background-color:black;
    border-radius:15px ;
-   
-   
 }
 
 
@@ -61,7 +59,7 @@ body{
    background-color:rgb(56, 53, 53); 
    font-size: 30px;
    width:60px;
-   height: 60px;
+   height: 50px;
    min-height: 10vh;
    margin:5px ;
    cursor:pointer;
@@ -73,7 +71,7 @@ body{
    background-color:rgb(252, 251, 251); 
    font-size: 30px;
    width:60px;
-   height: 60px;
+   height: 50px;
    min-height: 10vh;
    margin:5px ;
    cursor:pointer;
@@ -87,7 +85,7 @@ body{
    background-color:rgb(56, 53, 53) ;
    font-size: 30px;
    width:60px;
-   height: 60px;
+   height: 50px;
    min-height: 10vh;
    margin:5px ;
    cursor:pointer;
@@ -99,7 +97,7 @@ body{
    background-color:rgb(251, 250, 250) ;
    font-size: 30px;
    width:60px;
-   height: 60px;
+   height: 50px;
    min-height: 10vh;
    margin:5px ;
    cursor:pointer;
@@ -112,7 +110,7 @@ body{
    background-color:rgb(56, 53, 53) ;
    font-size: 30px;
    width:60px;
-   height: 60px;
+   height: 50px;
    min-height: 10vh;
    margin:5px ;
    cursor:pointer;
@@ -125,7 +123,7 @@ body{
    background-color:rgb(250, 246, 246) ;
    font-size: 30px;
    width:60px;
-   height: 60px;
+   height: 50px;
    min-height: 10vh;
    margin:5px ;
    cursor:pointer;
@@ -140,7 +138,20 @@ body{
    color:white;
    font-size: 30px;
    width:60px;
-   height: 60px;
+   height: 50px;
+   min-height: 10vh;
+   margin:5px ;
+   cursor:pointer;
+}
+
+.caculatorsequalbtn:hover{
+   border-radius: 50%;
+   border:none;
+   background-color:rgb(10, 132, 10);
+   color:black;
+   font-size: 30px;
+   width:60px;
+   height: 50px;
    min-height: 10vh;
    margin:5px ;
    cursor:pointer;
