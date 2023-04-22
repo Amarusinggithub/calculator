@@ -1,12 +1,18 @@
-const calculatorOperators = document.querySelectorAll('[data-operaters]');
-const calculatorNums = document.querySelectorAll('[data-numbers]');
-const calsulatorEqual = document.querySelector('[data-equal]');
-const calculatorDec = document.querySelector('[data-decimal]');
-const calculatorClear = document.querySelector('[data-clear]');
+const calculatorOperators = document.querySelectorAll('.caculatorsigns');
+const calculatorNumbers = document.querySelectorAll('.caculatornums');
+const calculatorEqual = document.querySelector('.caculatorsequalbtn');
+const calculatorClear = document.querySelector('.caculatorclearbtn');
+const calculatorDisplay = document.querySelector('.display');
+const previousOperand = document.querySelector('.previous-operand');
+const currentOperand = document.querySelector('.current-operand');
+const calculatorDec = document.querySelector('.calculatordec');
+const calculatorNegative = document.querySelector('.calculatornegative');
+const currentOutput = document.querySelector('.output');
 
-
-class Calculator {
-    constructor() {
-
-    }
+function displayNumbers() {
+    calculatorNumbers.forEach(button => {
+        button.addEventListener('click', () => {
+            calculatorDisplay.innerHTML += button.innerHTML;
+        });
+    });
 }

@@ -1,4 +1,5 @@
 body {
+    background: linear-gradient( rgb(10, 132, 10), black);
     margin: 0;
     box-sizing: border-box;
 }
@@ -8,7 +9,6 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: linear-gradient( rgb(10, 132, 10), black);
 }
 
 .card {
