@@ -13,37 +13,33 @@
 <body>
     <div class="container">
         <div class="card">
-            <div class="display" id="display">
-
-                <div class=" output ">
-                    <div class="previous-operand "></div>
-                    <div class="current-operand "></div>
+            <div>
+                <div>
+                    <input title="display" type=" text " class="display " id="display" readonly>
                 </div>
-
+                <button class="clearBtn " value="Ac" id="clear" onclick="clearDisplay()">C</button>
+                <button class=" bracketsBtn " value=" " id="brackets" onclick=" bracketBtn() ">()</button>
+                <button class="backspaceBtn " value=" AC " id="backspace " onclick=" backspace() ">AC</button>
+                <button class=" operatorsBtn " value="/ " id="division " onclick=" displayValue( '÷') ">÷</button>
+                <button class="numberBtn " value="1 " onclick="displayValue(1) ">1</button>
+                <button class="numberBtn " value="2 " onclick="displayValue(2) ">2</button>
+                <button class="numberBtn " value="3 " onclick="displayValue(3) ">3</button>
+                <button class="operatorsBtn " value="*" id="multiplication " onclick="displayValue( 'x') ">x</button>
+                <button class="numberBtn " value="4 " onclick="displayValue(4) ">4</button>
+                <button class="numberBtn " value="5 " onclick="displayValue(5) ">5</button>
+                <button class=" numberBtn " value="6 " onclick="displayValue(6) ">6</button>
+                <button class=" operatorsBtn " value="- " id="subtraction " onclick="displayValue( '-') ">-</button>
+                <button class="numberBtn " value="7 " onclick="displayValue(7) ">7</button>
+                <button class="numberBtn " value="8 " onclick="displayValue(8) ">8</button>
+                <button class="numberBtn " value="9 " onclick="displayValue(9) ">9</button>
+                <button class="operatorsBtn " value="+ " id="addition " onclick=" displayValue( '+') ">+</button>
+                <button class=" negativeBtn " value=" " id="negative " onclick=" negativeBtn() ">+/-</button>
+                <button class="decimalBtn " value=". " id="decimal" onclick=" displayValue( '.'); ">.</button>
+                <button class="numberBtn " value="0 " onclick="displayValue(0) ">0</button>
+                <button class="equalBtn" value="=" id="equal" onclick="equalBtn()">=</button>
             </div>
-            <button class="caculatorclearbtn ">C</button>
-            <button class="caculatorsigns ">()</button>
-            <button class="caculatorsigns ">÷</button>
-            <button class="caculatorsigns ">%</button>
-            <button class="caculatornums ">1</button>
-            <button class="caculatornums ">2</button>
-            <button class="caculatornums ">3</button>
-            <button class="caculatorsigns ">x</button>
-            <button class="caculatornums ">4</button>
-            <button class="caculatornums ">5</button>
-            <button class="caculatornums ">6</button>
-            <button class="caculatorsigns ">-</button>
-            <button class="caculatornums ">7</button>
-            <button class="caculatornums ">8</button>
-            <button class="caculatornums ">9</button>
-            <button class="caculatorsigns ">+</button>
-            <button class="caculatornegative ">+/-</button>
-            <button class="caculatordec ">.</button>
-            <button class="caculatornums ">0</button>
-            <button class="caculatorsequalbtn ">=</button>
         </div>
-    </div>
-    <script src="index.js "></script>
+        <script src=" index.js "></script>
 </body>
 
 </html>
